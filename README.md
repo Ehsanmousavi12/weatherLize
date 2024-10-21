@@ -1,2 +1,2 @@
-# weatherLize
+# iweatherlyze
 # iweatherlyze
