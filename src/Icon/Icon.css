@@ -1,0 +1,57 @@
+.sun {
+  width: 80px;
+  height: 80px;
+  color: yellow;
+  animation: spin 10s linear infinite;
+}
+.moon {
+  width: 80px;
+  height: 80px;
+  color: yellow;
+}
+.cloud {
+  width: 80px;
+  height: 80px;
+  color: gray;
+  animation: moveLeftAndRight 10s infinite;
+}
+.sharp {
+  width: 80px;
+  height: 80px;
+  color: yellow;
+}
+.sharp1 {
+  width: 80px;
+  height: 80px;
+  color: rgb(25, 144, 184);
+}
+.thunder {
+  width: 80px;
+  height: 80px;
+  color: rgb(255, 255, 255);
+}
+.Wind {
+  font-size: 24px;
+  color: azure;
+  margin-top: 16px;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(380deg);
+  }
+}
+@keyframes moveLeftAndRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-15px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
